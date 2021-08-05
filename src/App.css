@@ -1,0 +1,68 @@
+.container {
+    margin: 0.5rem clamp(1rem, 8vw, 8rem);
+}
+
+.loveContent {
+    background-color: #FF7F57;
+    border-radius: 1.2rem;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.loveContent h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.loveContent button {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 2.5rem;
+    color: #FF7F57;
+    border-radius: 6px;
+}
+
+.left {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.right {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.heading span {
+    color: var(--primary-color );
+}
+
+hr {
+    margin-top: 1rem;
+}
+
+.cards {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    overflow-y: auto;
+    padding: 1rem 0.5rem;
+}

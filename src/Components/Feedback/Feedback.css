@@ -1,0 +1,42 @@
+.feedbacks__top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.top__overallRating h1 {
+  color: var(--primary-color);
+  font-size: 3rem;
+}
+
+.rating {
+  color: var(--primary-color) !important;
+}
+
+.feedbacks__bottom {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bottom__bars {
+  flex: 50%;
+  justify-content: space-between;
+}
+
+.botton__stars {
+  flex: 50%;
+}
+
+.progress__bar {
+  background-color: #d7d4d4 !important;
+  height: 1rem !important;
+  margin-top: 1rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
