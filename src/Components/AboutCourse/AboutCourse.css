@@ -23,7 +23,7 @@
 .breadcrumb {
   display: flex;
   align-items: center;
-  margin-top: 1rem;
+  margin-block: 2rem;
 }
 
 .breadcrumb > p {
@@ -96,7 +96,7 @@
 
 .button {
   width: 100%;
-  padding-block: 0.7rem;
+  padding-block: 0.5rem;
   border-radius: 6px;
   border: 2px solid var(--primary-color);
   background-color: #fafafa;

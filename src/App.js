@@ -6,6 +6,10 @@ import bgRight from "./assets/images/bg-right.png";
 import Review from './Components/Review/Review';
 import Card from './Components/Card/Card';
 import Feedback from './Components/Feedback/Feedback';
+import layers from "./assets/icons/layers.png";
+import clock from "./assets/icons/clock.png";
+import copy from "./assets/icons/copy.png";
+import Accordion from './Components/Accordion/Accordion';
 
 function App()
 {
@@ -18,10 +22,30 @@ function App()
 
         <hr />
         <h1 className="heading">What’s inside the course ?</h1>
-        <div className="course__content">
-          <div className="row">
-            
+
+        <div className="course__contentWrapper">
+          <div className="course__content">
+            <div className="row">
+              <img src={layers} alt="icon" />
+              <p>2 modules</p>
+            </div>
+
+            <div className="row">
+              <img src={copy} alt="icon" />
+              <p>4 videos</p>
+            </div>
+
+            <div className="row">
+              <img src={clock} alt="icon" />
+              <p>14 minutes</p>
+            </div>
           </div>
+
+          <button className="button active">Schedule this course</button>
+
+
+          <Accordion />
+
         </div>
 
         <div className="loveContent">

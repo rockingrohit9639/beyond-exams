@@ -1,0 +1,31 @@
+.accordion {
+    margin-block: 2rem;
+}
+
+.accordion__titleContainer {
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    display: flex;
+    padding: 1rem 0.8rem;
+    justify-content: space-between;
+    height: 94px;
+}
+
+.accordion__count div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #D7D4D4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion__modNum p, .accordion__title p {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.row p {
+    font-size: 0.6rem;
+}

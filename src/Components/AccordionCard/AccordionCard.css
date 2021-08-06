@@ -1,0 +1,57 @@
+.accordionCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    gap: 0.5rem;
+}
+
+.accordionCard__count {
+    flex: 10%;
+}
+
+.accordionCard__image { 
+    flex: 30%;
+    position: relative;
+} 
+
+.accordionCard__details {
+    flex: 60%;
+}
+
+.accordionCard__count div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #D7D4D4;
+    display: grid;
+    place-items: center;
+}
+
+.accordionCard__image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.3);
+}
+
+.accordionCard__image .time {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    background-color: var(--primary-color);
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    padding: 1px 6px;
+}
+
+.accordionCard__title {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.accordionCard__subTitle {
+    font-size: 0.6rem;
+    padding-block: 0.4rem;
+}
